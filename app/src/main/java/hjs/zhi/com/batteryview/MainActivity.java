@@ -38,10 +38,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         horizontalBattery = findViewById(R.id.horizontalBattery);
-        verticalBattery = findViewById(R.id.verticalBattery);
+//        verticalBattery = findViewById(R.id.verticalBattery);
 
-        verticalBattery.setColor(Color.BLACK);
-        verticalBattery.setPower(85);
+//        verticalBattery.setColor(Color.BLACK);
+//        verticalBattery.setPower(85);
 
         new Timer().schedule(new TimerTask() {
             @Override
