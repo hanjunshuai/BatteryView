@@ -9,6 +9,9 @@ import android.graphics.SweepGradient;
 import android.util.AttributeSet;
 import android.view.View;
 
+/**
+ * 雷达扫描
+ */
 public class RadarScanView extends View {
     private static final int defaultWidth = 200;//默认宽度
     private static final int defaultHeight = 200;//默认高度
