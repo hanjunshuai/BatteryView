@@ -85,6 +85,7 @@ public class RadarScanView extends View {
         centerY = getWidth() / 2;
         radius = getWidth() / 2;
 
+
         shadePaint.setShader(null);
         //将画布原点平移到控件的中心位置
         canvas.translate(centerX, centerY);
